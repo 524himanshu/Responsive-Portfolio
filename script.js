@@ -51,7 +51,7 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 /*==================== typed js ====================*/
 document.addEventListener('DOMContentLoaded', function () {
     const typed = new Typed('.typed-text', {
-        strings: ['Developer', 'Designer', 'Freelancer'],
+        strings: ['Student', 'Designer', 'Freelancer'],
         typeSpeed: 100,
         backDelay: 100,
         loop: true
