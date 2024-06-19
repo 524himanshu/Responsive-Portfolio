@@ -51,14 +51,16 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 /*==================== typed js ====================*/
 document.addEventListener('DOMContentLoaded', function () {
     const typed = new Typed('.typed-text', {
-        strings: ['Student', 'Designer', 'Freelancer'],
-        typeSpeed: 100,
-        backDelay: 100,
+        strings: [ 'Coder','Tech Enthusiast'],
+        typeSpeed: 200,
+        backDelay: 200,
         loop: true
     });
 });
 
 document.getElementById('theme-toggle').addEventListener('click', function() {
     document.body.classList.toggle('dark-theme');
-  });
+    this.classList.toggle('bx-toggle-right');
+
+});
 
