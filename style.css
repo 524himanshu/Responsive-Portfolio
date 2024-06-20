@@ -37,6 +37,10 @@ body.dark-theme i {
     color: #ff77b6;
 }
 
+body.dark-theme i {
+    color: #ff77b6;
+}
+
 /* body.dark-theme h1,h3,h4,h5,h6 {
   color: #ff77b6;
 } */
@@ -58,8 +62,7 @@ body.dark-theme span {
   body.dark-theme .home,
   body.dark-theme .about,
   body.dark-theme .skills,
-  body.dark-theme .certificates,
-  body.dark-theme .nft .btn,
+  body.dark-theme .certificates ,
   body.dark-theme .portfolio,
   body.dark-theme .contact {
     background-color: black;
