@@ -359,6 +359,10 @@ span {
   width: 73%;
 }
 
+.stats-card{
+  background: var(--second-bg-color);
+}
+
 .certificates h2 {
   margin-bottom: 5rem;
   text-align: center;
