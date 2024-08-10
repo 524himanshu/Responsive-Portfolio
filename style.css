@@ -369,6 +369,7 @@ span {
   align-items: center;
   flex-wrap: wrap;
   gap: 1rem;
+  transform: 180deg;
 }
 
 .nft {
@@ -475,6 +476,7 @@ span {
   transform: scale(1.015);
   filter: brightness(1.3);
 }
+
 
 .portfolio {
   background: var(--second-bg-color);
