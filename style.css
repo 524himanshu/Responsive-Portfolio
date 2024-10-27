@@ -599,7 +599,7 @@ span {
 }
 
 .profile-card .back {
-  background-image: url("himanshu.png");
+  background-image: url('himanshu.png');
   background-size: cover;
   background-position: center;
   color: white;
@@ -611,6 +611,7 @@ span {
   padding: 20px;
   border-radius: 10px;
 }
+
 
 .profile-card img {
   width: 100%;
