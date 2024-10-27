@@ -209,7 +209,7 @@ span {
   transition: 0.5s ease;
 }
 
-.btn download-cv {
+.btn.download-cv {
   display: inline-block;
   padding: 1rem 2.8rem;
   background: var(--main-color);
@@ -222,7 +222,7 @@ span {
   transition: 0.5s ease;
 }
 
-.btn download-cv:hover {
+.btn.download-cv:hover {
   box-shadow: none;
 }
 
@@ -375,7 +375,6 @@ span {
   align-items: center;
   flex-wrap: wrap;
   gap: 1rem;
-  transform: 180deg;
 }
 
 .nft {
@@ -600,7 +599,7 @@ span {
 }
 
 .profile-card .back {
-  background-image: url('himanshu.png');
+  background-image: url("himanshu.png");
   background-size: cover;
   background-position: center;
   color: white;
@@ -612,7 +611,6 @@ span {
   padding: 20px;
   border-radius: 10px;
 }
-
 
 .profile-card img {
   width: 100%;
