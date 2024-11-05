@@ -96,10 +96,16 @@ section {
   border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
 }
 
+.home-img img {
+  width: 35vw;
+  animation: floatImage 4s ease-in-out infinite;
+  /box-shadow: 0 0 20px 10px rgba(14, 239, 255, 0.5); /* Add glow effect */
+}
+
 .logo {
   font-size: 2.5rem;
   color: var(--text-color);
-  font-weight: 600;
+  font-weight: 600; 
   cursor: default;
 }
 
